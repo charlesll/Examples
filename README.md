@@ -1,4 +1,8 @@
-# Examples
-Examples for using Rampy, Scipy, lmfit for spectral fitting
+In this repository IPython notebooks examples are shown.
 
-IPython notebooks
+
+Developped under Mac with Anaconda Python.
+
+C. Le Losq.
+clelosq@carnegiescience.edu
+
