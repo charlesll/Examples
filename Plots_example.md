@@ -167,6 +167,6 @@ gif(anim, "example.gif", fps=1)
     INFO: Saved animation to /Users/charles/Documents/PlotCodes/example.gif
 
 
-<img src="./Figures/plt4.gif>" />
+![](Figures/plt4.gif)
 
 
