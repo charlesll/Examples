@@ -1,8 +1,4 @@
-In this repository IPython notebooks examples are shown.
+In this repository, a few IPython notebooks examples are shown.
 
-
-Developped under Mac with Anaconda Python.
-
-C. Le Losq.
-clelosq@carnegiescience.edu
-
+C. Le Losq, Research Fellow RSES-ANU
+charles.lelosq@anu.edu.au
