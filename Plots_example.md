@@ -86,8 +86,19 @@ plt
 
 <img src="./Figures/plt1.png" />
 
+A concatenated version of the above plot can be made using magic areguments:
 
+```julia
+plt_bis = scatter(x,y, err = ese_y, c = :red, markerstrokecolor = :red, ms = 10, 
+        xaxis = ("X values", font(14, "Arial"), -10:4:10),  yaxis = (L"$y = X^2$", font(14, "Arial")), 
+        grid = false)
 
+# you need to set the label font with the `guidefont` argument after the first call, as for this subplot:
+plt_bis.subplots[1][:yaxis][:guidefont] = Plots.Font("Arial",18,:hcenter,:vcenter,0.0,RGB{U8}(1.0,0.0,0.0))
+plt_bis.subplots[1][:xaxis][:guidefont] = Plots.Font("Arial",18,:hcenter,:vcenter,0.0,RGB{U8}(0.0,0.0,0.0))
+plt_bis
+```
+<img src="./Figures/plt1_bis.png" />
 
 ```julia
 # Now we can even modify the y values
